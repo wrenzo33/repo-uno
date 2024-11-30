@@ -26,6 +26,6 @@ jobs:
           git config user.email "reen_w33@hotmail.com"
           git add . 
           git commit -m "agregando archivo txt"
-          git push https://x-access-token:${{ secrets.GH_TOK30D }}@github.com/wrenzo33/repo-uno.git
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/wrenzo33/repo-uno.git
             
       
