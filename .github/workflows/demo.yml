@@ -23,8 +23,9 @@ jobs:
         run: |
           touch letras.txt
           git config user.name "wilson"
-          git config user.email "reen_w33@hotmail.com
+          git config user.email "reen_w33@hotmail.com"
           git add . 
           git commit -m "agregando archivo txt"
+          git push
             
       
