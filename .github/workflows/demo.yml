@@ -18,5 +18,13 @@ jobs:
           python-version: '3.10'
       - name: run scriptcito
         run: python ./codigo_python.py
+
+      - name: Gererar archivo txt
+        run: |
+          touch letras.txt
+          git config user.name "wilson"
+          git config user.email "reen_w33@hotmail.com
+          git add . 
+          git commit -m "agregando archivo txt"
             
       
